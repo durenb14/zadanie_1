@@ -75,7 +75,7 @@ namespace zadanie_1
             double T, y4;
             Console.WriteLine("Введите значение - y4");
             y4 = Convert.ToDouble(Console.ReadLine());
-            T = Math.Sqrt(Math.Abs(6 * Math.Pow(y4, 2) - 0.1 * y + 4));
+            T = Math.Sqrt(Math.Abs(6 * Math.Pow(y4, 2) - 0.1 * y4 + 4));
             Console.WriteLine($"T={T}");
 
             Console.WriteLine("Практическая работа №9");
@@ -122,7 +122,7 @@ namespace zadanie_1
             double E, y8;
             Console.WriteLine("Введите значение - y8");
             y8 = Convert.ToDouble(Console.ReadLine());
-            E = Math.Sqrt(Math.Abs(3 * Math.Pow(y8, 2) + 0.5 * y + 4));
+            E = Math.Sqrt(Math.Abs(3 * Math.Pow(y8, 2) + 0.5 * y8 + 4));
             Console.WriteLine($"E={E}");
 
             Console.WriteLine("Практическая работа №14");
@@ -274,7 +274,7 @@ namespace zadanie_1
             double N3, y23;
             Console.WriteLine("Введите значение - y23");
             y23 = Convert.ToDouble(Console.ReadLine());
-            N3 = 3 * Math.Pow(y23, 2) + Math.Sqrt(Math.Abs(y + 1));
+            N3 = 3 * Math.Pow(y23, 2) + Math.Sqrt(Math.Abs(y23 + 1));
             Console.WriteLine($"N3={N3}");
 
             Console.WriteLine("Практическая работа №30");
